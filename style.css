@@ -28,10 +28,12 @@
     border-bottom: lightblue 4px solid;
     padding: 10px 5px;
     margin-top: 0;
+    margin-bottom: 0px;
 }
 
 .definition {
-    margin-top: -5px;
+    margin-top: 0.5em;
+    margin-left: 0px;
 }
 
 

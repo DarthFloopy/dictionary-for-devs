@@ -10,13 +10,13 @@ fetch('./dictionary.json').then(function(response) {
     //NOW WE SORT THE DATA BEFORE PUSHING IT
     data.sort((definitionA, definitionB) => {
       if (definitionA.word.toLowerCase() > definitionB.word.toLowerCase()) {
-        return 1
+        return 1;
       }
       else {
-        return -1
+        return -1;
       }
     })
-    pushDefinitions(data)
+    pushDefinitions(data);
   });
 });
 
@@ -30,8 +30,8 @@ document.getElementById("scroll-top").addEventListener("click",function(e){
 function pushDefinitions(data) {
   data.forEach(function(item) {
     entry = document.createElement('div');
-    word = document.createElement('h3');
-    definition = document.createElement('p');
+    word = document.createElement('dt');
+    definition = document.createElement('dd');
 
     word.textContent = item.word;
     word.classList = 'word';
