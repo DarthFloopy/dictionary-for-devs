@@ -11,11 +11,10 @@ fetch('./dictionary.json').then(function(response) {
     data.sort((definitionA, definitionB) => {
       if (definitionA.word.toLowerCase() > definitionB.word.toLowerCase()) {
         return 1;
-      }
-      else {
+      } else {
         return -1;
       }
-    })
+    });
     pushDefinitions(data);
   });
 });

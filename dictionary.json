@@ -1,19 +1,27 @@
 [
   {
-    "word": "AJAX",
-    "definition": "Short for Asynchronous JavaScript and XML."
+    "word": "42",
+    "definition": "The answer to the Ultimate Question of Life, the Universe, and Everything."
   },
   {
-    "word": "UAT (User Acceptance Testing)",
-    "definition": "Formal testing done often by the user, with respect to user needs, requirements, and business processes conducted to determine whether or not a system satisfies the acceptance criteria and to enable the user to determine whether or not to accept the system."
+    "word": "AJAX",
+    "definition": "Short for Asynchronous JavaScript and XML; a JavaScript technology used by a web page to request information from a web server without loading a new page."
   },
   {
     "word": "Algorithm",
     "definition": "A sequence of instructions or a set of rules that are followed to solve a task."
   },
   {
+    "word": "AngularJS",
+    "definition": "A JavaScript-based open source front-end web application framework used for creating rich, extensible web applications."
+  },
+  {
     "word": "API",
-    "definition": "A set of functions and procedures that allow the creation of applications which access the features or data of an operating system, application, or other service."
+    "definition": "Short for Application Programming Interface; A set of functions and procedures that allow the creation of applications which access the features or data of an operating system, application, or other service."
+  },
+  {
+    "word": "Asynchronous",
+    "definition": "(a program part) Executed simultaneously or indepentently from the main or current thread or process."
   },
   {
     "word": "Back-end",
@@ -21,19 +29,15 @@
   },
   {
     "word": "BEM",
-    "definition": "Acronym for block, element, modifier. BEM is a strict writing CSS rules. With BEM you will write some like this: '.block-element--modifier'. Ex.: 'menu-item--active'"
+    "definition": "Acronym for block, element, modifier. BEM is a strict writing CSS rules. With BEM you will write some like this: '.block-element--modifier'. E.g., 'menu-item--active'"
+  },
+  {
+    "word": "BIOS (Basic Input/Output System)",
+    "definition": "Firmware that coordinates how the software interacts with the hardware."
   },
   {
     "word": "Bit",
-    "definition": "A bit (short for binary digit) is the smallest unit of measurement in computing. 8 bits make up 1 byte."
-  },
-  {
-    "word": "BIOS",
-    "definition": "Stands for Basic Input/Output System. It is firmware that allows you to change or view the 'settings' of the computer."
-  },
-  {
-    "word": "Browser",
-    "definition": "A software program that allows you to surf the web. Popular web browsers include Google Chrome, Mozilla Firefox, Microsoft Firefox, Microsoft Edge and Internet Explorer."
+    "definition": "In computing, a bit (short for binary digit) is the smallest unit of measurement for information. A bit is represented as either 1 or 0. Eight bits make up one byte."
   },
   {
     "word": "Buffer",
@@ -45,11 +49,7 @@
   },
   {
     "word": "Bug",
-    "definition": "An error or flaw in the website or app that keeps it from running as expected."
-  },
-  {
-    "word": "CamelCase",
-    "definition": "A formatting style for a group of words, often used in Javascript.  For example 'camelCase', 'alsoCamelCase', and 'oneMoreExampleOfCamelCase'. Not to be confused with Pascal Case, which is almost exactly the same, however it capitalizes the first word in the group as well (i.e. 'ThisIsPascalCase')."
+    "definition": "An error or flaw in a website or program that keeps it from running as expected. There are three types of bugs: syntax errors, when there is an error in the source code; runtime errors, when the source code is legal but there is an error while running; and logic errors, where the program runs without errors but doesn't do what is intended."
   },
   {
     "word": "C#",
@@ -57,23 +57,63 @@
   },
   {
     "word": "Cache",
-    "definition": "When you download (read) a web page, the data is 'cached', meaning it is temporarily stored on your computer. The next time you want that page, instead of requesting the file from the web server, your web browser just accesses it from the cache, so the page loads quickly. The downside to this is that if the cached web page is often updated, you may miss the latest version. If you suspect that the web page you're seeing is not the latest version, use the 'refresh' button on your browser."
+    "definition": "Stored information. When you download (visit) a web page, the data is 'cached', meaning it is temporarily stored on your computer. The next time you want that page, instead of requesting the file from the web server, your web browser just accesses it from the cache, so the page loads quickly. The downside to this is that if the cached web page is often updated, you may miss the latest version. If you suspect that the web page you're seeing is not the latest version, use the 'refresh' button on your browser or find a menu option to \"clear caches.\""
   },
   {
+    "word": "Callback",
+    "definition": "A callback function is a function that is passed as an argument to other code that is expected to call back the argument at a given time. If this is immediate then it called synchronous callback; if it is delayed it is called asynchronous callback."
+  },
+  {
+    "word": "camelCase",
+    "definition": "A formatting style for a group of words, frequently used in programming.  For example 'camelCase', 'alsoCamelCase', and 'oneMoreExampleOfCamelCase'. Not to be confused with Pascal Case (or UpperCamelCase), which is almost exactly the same; however it capitalizes the first word in the group as well (i.e. 'ThisIsPascalCase')."
+  },
+  {
+    "word": "Cloud",
+    "definition": "A general term for remote servers used or accessed through the internet."
+  }, 
+  {
     "word": "Cloud Computing",
-    "definition": "Cloud computing is the the use of various services, such as software development platforms, servers, storage and software, over the internet, often referred to as the cloud."
+    "definition": "Cloud computing is the the use of various services, such as software development platforms, servers, storage and software, over the internet."
+  },
+  {
+    "word": "CMS (content management system)",
+    "definition": "A software application or set of related programs that are used to create and manage digital content. It typically supports multiple users in a collaborative environment."
   },
   {
     "word": "Column family",
     "definition": "A database object that contains columns of related data."
   },
   {
-    "word": "CSS",
-    "definition": "'Cascading Style Sheets' is a style sheet language used for describing the look (e.g. colors, sizes, spacing, etc) document written in an online markup language"
+    "word": "Command-line",
+    "definition": "(also \"Command prompt\", \"Terminal\") A basic form of computer I/O where commands are typed and entered through a text-based interface."
+  },
+  {
+    "word": "Compile",
+    "definition": "Translate source code files into binary, machine-code files. In Java, source code files are compiled into intermediate bytecode that is executed by a virtual machine."
+  },
+  {
+    "word": "Continuous Delivery (CD)",
+    "definition": "CD is a software engineering approach in which teams produce software in short cycles, ensuring that the software can be reliably released at any time and, when releasing software, doing so manually. The goal is to build, test and release software with greater speed and frequency."
+  },
+  {
+    "word": "Continuous Integration (CI)",
+    "definition": "CI is a development practice that requires developers to integrate code into a shared repository several times a day. Each check-in is then verified by an automated build, allowing teams to detect problems early."
+  },
+  {
+    "word": "CORS (Cross-origin resource sharing)",
+    "definition": "A mechanism that allows web applications to access resources from different origin."
+  },
+  {
+    "word": "CSS (Cascading Style Sheets)",
+    "definition": "A style sheet language used for describing the look (e.g. colors, sizes, spacing, etc) of an HTML document."
+  },
+  {
+    "word": "CSV (comma-separated values)",
+    "definition": "A file format which allows data to be saved in a tabular format."
   },
   {
     "word": "Database",
-    "definition": "A database is an organized collection of data. More specifically, a database is an electronic system that allows data to be easily accessed, manipulated and updated."
+    "definition": "An organized collection of data. More specifically,  an electronic system that allows data to be easily accessed, manipulated and updated."
   },
   {
     "word": "Data Science",
@@ -84,28 +124,28 @@
     "definition": "Database management system. Examples include: Oracle, MySQL, MSSQL, DB2, and some nosql varieties."
   },
   {
-    "word": "DDD",
-    "definition": "Domain-driven design is an approach to software development for complex needs by connecting the implementation to an evolving model. The premise of domain-driven design is the following: <ul class='browser-default'><li>placing the project's primary focus on the core domain and domain logic;</li><li>basing complex designs on a model of the domain;</li><li>initiating a creative collaboration between technical and domain experts to iteratively refine a conceptual model that addresses particular domain problems.</li></ul>"
+    "word": "DDD (Domain-driven design)",
+    "definition": "An approach to software development for complex needs by connecting the implementation to an evolving model. The premise of domain-driven design is: <ul class='browser-default'><li>placing the project's primary focus on the core domain and domain logic;</li><li>basing complex designs on a model of the domain;</li><li>initiating a creative collaboration between technical and domain experts to iteratively refine a conceptual model that addresses particular domain problems.</li></ul>"
   },
   {
     "word": "Debugging",
-    "definition": "the process of locating and fixing or bypassing bugs (errors) in computer program code or the engineering of a hardware device."
+    "definition": "The process of locating and fixing or bypassing bugs (errors) in computer program code or the engineering of a hardware device."
   },
   {
     "word": "Dev",
-    "definition": "Short for 'Developer'."
+    "definition": "Short for 'Developer.'"
   },
   {
     "word": "Developer",
     "definition": "A person or company that creates new products, especially computer products such as software."
   },
   {
-    "word": "DNS",
-    "definition": "The Domain Name System (DNS) is a hierarchical decentralized naming system for computers, services, or other resources connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities."
+    "word": "DNS (Domain Name System)",
+    "definition": "A hierarchical, decentralized naming system for computers, services, or other resources connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities."
   },
   {
-    "word": "DOM",
-    "definition": "The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects."
+    "word": "DOM (The Document Object Model)",
+    "definition": "A programming interface for HTML and XML documents. It represents the page in a browser so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects."
   },
   {
     "word": "Esoteric Programming Language",
@@ -116,16 +156,20 @@
     "definition": "Firmware is a general term for the various kinds of programs built into hardware. An example of firmware would be a BIOS."
   },
   {
-    "word": "Front-end",
+    "word": "Flutter",
+    "definition": "Flutter is an open-source mobile application development SDK created by Google. It is used to develop applications for Android and iOS."
+  },
+  {
+    "word": "Front end",
     "definition": "What a user sees and interacts with on a website or app."
   },
   {
-    "word": "FTP",
-    "definition": "File transfer protocol (FTP) is a common method of transferring files via the internet from one host to another host."
+    "word": "FTP (File Transfer Protocol)",
+    "definition": "A common method of transferring files via the internet from one computer to another."
   },
   {
-    "word": "GIF",
-    "definition": "Graphics Interchange Format is a bitmap image format. Supports up to 8 bits per pixel for each image, allowing a single image to reference its own palette of up to 256 different colors chosen from the 24-bit RGB color space. It also supports animations and allows a separate palette of up to 256 colors for each frame."
+    "word": "GIF (Graphics Interchange Format)",
+    "definition": "A bitmap image format. Supports up to 8 bits per pixel for each image, allowing a single image to reference its own palette of up to 256 different colors chosen from the 24-bit RGB color space. It also supports animations and allows a separate palette of up to 256 colors for each frame."
   },
   {
     "word": "Go",
@@ -140,52 +184,72 @@
     "definition": "A task runner for JavaScript that allows you to automate a variety of time-consuming tasks."
   },
   {
-    "word": "HTML",
-    "definition": "An acronymn for 'Hypertext Markup Language', HTML is a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages."
+    "word": "Hardware",
+    "definition": "A physical computer system. Software is run using hardware."
   },
   {
-    "word": "HTTP",
-    "definition": "An acronymn for 'Hypertext Transfer Protocol', HTTP is a application protocol for distributed, colaborative, hypermedia information systems. HTTP is the foundation of data comunication for the World Wide Web"
+    "word": "HEVC (High Efficiency Video Coding)",
+    "definition": "Also known as H.265 and MPEG-H Part 2; a video compression standard, one of the potential successors of the H.264 AVC video format."
   },
   {
-    "word": "HEVC",
-    "definition": "High Efficiency Video Coding, also known as H.265 and MPEG-H Part 2 is a video compression standard, one of the potential successors of H.264 AVC."
+    "word": "High-level",
+    "definition": "Abstracted away from the complicated details of hardware or implementation. Python is an example of a programming language that is relatively high-level. Opposite of \"Low-level.\""
   },
   {
-    "word": "IDE",
-    "definition": "Integrated Development Environment - an application that developers use for software development. IDEs will provide features such as a source code editor, debugger, and intelligent code completion."
+    "word": "HTML (Hypertext Markup Language)",
+    "definition": "A standardized system to structure text files to achieve font, color, graphic, and hyperlink effects on Web pages."
+  },
+  {
+    "word": "HTTP (Hypertext Transfer Protocol)",
+    "definition": "A transfer protocol mainly used for Web pages."
+  },
+  {
+    "word": "IDE (Integrated Development Environment)",
+    "definition": "An application that developers use for software development. IDEs provide features such as a source code editor, debugger, and intelligent code completion."
+  },
+  {
+    "word": "I/O",
+    "definition": "Input and output."
   },
   {
     "word": "Java",
-    "definition": "A general-purpose object-oriented programming language."
+    "definition": "A general-purpose object-oriented programming language, created by Sun Microsystems."
   },
   {
     "word": "JavaScript",
-    "definition": "Not connected with Java, JavaScript is an object-oriented programming language which is most commonly used alongside HTML and CSS for creating websites and web-based apps."
+    "definition": "A separate language from Java; an object-oriented programming language which is most commonly used alongside HTML and CSS for creating websites and web-based apps."
   },
   {
-    "word": "JPEG",
-    "definition": "JPEG stands for Joint Photographic Experts Group, which was the committee that created the file format known as JPEG. The format is commonlyl used for photos displayed on the world wide web."
+    "word": "JPEG (Joint Photographic Experts Group)",
+    "definition": "The committee that created the file format known as JPEG. The format is commonly used for photos displayed on the world wide web."
   },
   {
-    "word": "LAN",
-    "definition": "A local area network (LAN) is a system that connects computers and other devices that share a common communications line and wireless link, generally within a limited geographical area such as a home or office building."
+    "word": "LAN (Local Area Network)",
+    "definition": "A network that connects computers within a limited geographical area such as a home or office building."
   },
   {
     "word": "LESS",
-    "definition": "Leaner Style Sheets - style sheet language that can be compiled into CSS. Filename: .less"
+    "definition": "Leaner Style Sheets - style sheet language that can be transpiled into CSS. The filename extention is .less. (Alternative definition) One UNIX paginator program."
   },
   {
     "word": "Library",
-    "definition": "A library is a collection of precompiled routines that a program can use. The routines, sometimes called modules, are stored in object format. Libraries are particularly useful for storing frequently used routines because you do not need to explicitly link them to every program that uses them."
+    "definition": "A library is a collection of software that a program can use. Libraries are particularly useful for storing frequently used algorithms because you do not need to type them out for every program that uses them."
   },
   {
     "word": "Linux",
-    "definition": "Linux is an operating system, based on UNIX, that is open source and is used by many developers."
+    "definition": "Linux is an operating system, based on UNIX, that is open source and is used by many developers. Its various distributions include Debian, Ubuntu (based on Debian), Fedora, and Arch Linux."
+  },
+  {
+    "word": "Low-level",
+    "definition": "Dealing with complicated details of hardware or implementation. C is an example of a programming language that is relatively low-level. Opposite of \"High-level\""
   },
   {
     "word": "Machine Learning",
-    "definition": "Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed."
+    "definition": "An application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed."
+  },
+  {
+    "word": "macOS",
+    "definition": "An operating system, based on a version of UNIX, that is developed by Apple for its computers. iOS (the iPhone/iPad OS) is a derivative/"
   },
   {
     "word": "MERN",
@@ -193,23 +257,27 @@
   },
   {
     "word": "Microsoft Windows",
-    "definition": "<del>Pretty much a waste of money.</del> A commercial operating system developed by Microsoft."
+    "definition": "<del>A waste of money.</del> A commercial operating system developed by Microsoft."
   },
   {
     "word": ".NET",
-    "definition": "Pronounced: 'dot net' - Operating system platform (or framework) developed by Microsoft."
+    "definition": "Pronounced: 'dot net' - An perating system platform (or framework) developed by Microsoft."
+  },
+  {
+    "word": "Network",
+    "definition": "A group of computers connected to share services and information. The Internet is sometimes called a \"network of networks.\""
   },
   {
     "word": "Nginx",
-    "definition": "Nginx (/ˌɛndʒɪnˈɛks/ EN-jin-EKS[8]) (stylized as NGINX, NGiИX or nginx) is a web server which can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache."
+    "definition": "Nginx (pronounced EN-jin-EKS) is a web server which can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache."
   },
   {
-    "word": "NLP",
-    "definition": "Natural Language Processing, the use of machine learning or AI techniques to proccess and produce human language."
+    "word": "NLP (Natural Language Processing)",
+    "definition": "The use of machine learning or AI techniques to proccess and produce human language."
   },
   {
     "word": "Node.js",
-    "definition": "Node.js (or sometimes just Node) is a JavaScript runtime based on Chrome's V8 JavaScript engine. It allows you to write back-end code and scripts to do various tasks. It is the 'N' in 'MERN'."
+    "definition": "(sometimes just Node) A JavaScript runtime based on Chrome's V8 JavaScript engine. It allows you to write back-end code and scripts to do various tasks. It is the 'N' in 'MERN'."
   },
   {
     "word": "NPM",
@@ -217,47 +285,51 @@
   },
   {
     "word": "Object",
-    "definition": "A value stored in memory that referenced by an identifier."
+    "definition": "A value stored in memory with various properties and behaviors that can be referenced by an identifier."
   },
   {
-    "word": "Object-oriented",
-    "definition": "A type of programming organized around objects."
+    "word": "Object-oriented (OO)",
+    "definition": "A type of programming organized around classes (or prototypes) and objects."
   },
   {
-    "word": "OOCSS",
-    "definition": "'Object oriented CSS' is a way to write CSS proposed by web developer Nicole Sullivan in 2008, Her goal was to make dynamic CSS more manageable by applying the principles of object oriented design to CSS."
+    "word": "OOCSS (Object Oriented CSS)",
+    "definition": "A way to write CSS proposed by web developer Nicole Sullivan in 2008. Her goal was to make dynamic CSS more manageable by applying the principles of object oriented design to CSS."
   },
   {
     "word": "Open Source",
     "definition": "Software for which the original source code is made freely available and may be redistributed and modified."
   },
   {
-    "word": "Operating System",
-    "definition": "An operating system is the software that helps us access resources and applications, and manages resources. Examples of operating systems are Ubuntu, Windows 10, Macintosh, Debian, and Manjaro."
+    "word": "ORM (Object-Relational Mapping)",
+    "definition": "A mechanism to link classes of an object-oriented (OO) programming language to tables of a relational database management system (RDBMS)."
   },
   {
-    "word": "ORM",
-    "definition": "Object-Relational Mapping (ORM) is a mechanism to link classes of an object-oriented (OO) programming language to tables of a relational database management system (RDBMS)."
+    "word": "OS (Operating System)",
+    "definition": "The software on a computer that manages resources and high-level I/O. Examples of operating systems are macOS, Linux, UNIX, and Microsoft Windows."
   },
   {
-    "word": "Process",
-    "definition": "A process is a running computer program."
+    "word": "Paginator",
+    "definition": "A command-line program used to divide output into virtual pages for easier reading."
   },
   {
-    "word": "PHP",
+    "word": "PHP (PHP: Hypertext Preprocessor)",
     "definition": "PHP is a popular general-purpose scripting language that is especially suited to web development."
   },
   {
-    "word": "PNG",
-    "definition": "Portable Network Graphics. A raster graphics format with lossless data compression. PNG was created as a replacement for the patented Graphics Interchange Format (GIF)."
+    "word": "PNG (Portable Network Graphics)",
+    "definition": ". A raster graphics format with lossless data compression. PNG was created as a replacement for the patented Graphics Interchange Format (GIF)."
+  },
+  {
+    "word": "Process",
+    "definition": "A running computer program."
   },
   {
     "word": "Programming Language",
-    "definition": "A programming language is a type of written language that is used to provide instructions to the computer. Examples of programming languages include C, C#, C++, Java, Ruby, Python, and Go."
+    "definition": "A programming language is a type of written language that is used to provide instructions to a computer. Examples of programming languages include C, C#, C++, Java, Ruby, Python, and Go."
   },
   {
-    "word": "PWAs",
-    "definition": "Progressive Web Apps. a web applications that load like regular web pages or websites but can offer the user functionality such as working offline, push notifications, and device hardware access traditionally available only to native mobile applications."
+    "word": "PWA (Progressive Web Apps)",
+    "definition": "Web applications that load like regular web pages or websites but can offer the user functionality such as working offline, push notifications, and device hardware access traditionally available only to native mobile applications."
   },
   {
     "word": "Python",
@@ -269,127 +341,114 @@
   },
   {
     "word": "Responsive Design",
-    "definition": "Websites that change to the size of the screen on which they're being viewed."
-  },
-  {
-    "word": "SASS",
-    "definition": "Syntactically Awesome Style Sheets - style sheet language that can be compiled into CSS. Filename: .scss"
-  },
-  {
-    "word": "Scala",
-    "definition": "Scala is a general-purpose programming language providing support for functional programming and a strong static type system."
-  },
-  {
-    "word": "SEO",
-    "definition": "Search engine optimization is the method of gaining traffic (Users) to your website through search engines like Google, Bing etc by ranking on the first page for particular keywords"
-  },
-  {
-    "word": "Server",
-    "definition": "A server is a computer program or a device that provides functionality for other programs or devices, called 'clients'. This architecture is called the client–server model, and a single overall computation is distributed across multiple processes or devices."
-  },
-  {
-    "word": "SDK",
-    "definition": "Software Developers Kit. A collection of tools or programs used by devlopers."
-  },
-  {
-    "word": "Software",
-    "definition": "Software is a general term for the various kinds of programs used to operate computers and related devices."
-  },
-  {
-    "word": "Source Code",
-    "definition": "Source code is the collection of files containing instructions in a programming language that make up a program. Source code is commonly compiled into a program, or executable. It may also be run by an interpreter if it is an interpreted language such as Python or Ruby."
-  },
-    {
-    "word": "SQL ",
-    "definition": "Structured Query Language (SQL) is a standard computer language for relational database management and data manipulation."
-  },
-  {
-    "word": "SSL",
-    "definition": "Acronym for Secure Sockets Layer, the security protocol that allows for transmission of encrypted data between a web server and a user's browser."
-  },
-  {
-    "word": "Thread",
-    "definition": "A thread is a unit of execution; i. e., a program or part of a program that a computer can execute concurrently with others. A thread is a process, or part of it."
-  },
-  {
-    "word": "TLD",
-    "definition": "Top Level Domain. One of the domains at the highest level in the hierarchical Domain Name System of the Internet (e.g., *.com, *.net, *.org)."
-  },
-  {
-    "word": "TLS",
-    "definition": "Transport Layer Security. Cryptographic protocol designed to provide communications security over a computer network. It deprecated SSL."
-  },
-  {
-    "word": "Transaction",
-    "definition": "An atomic unit of work that should either be completed in its entirety or not done at all."
-  },
-  {
-    "word": "TypeScript",
-    "definition": "Open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language."
-  },
-  {
-    "word": "WWW",
-    "definition": "Acronym for World Wide Web, is an information space where documents and other web resources are identified by URLs, interlinked by hypertext links and accessible via the Internet"
-  },
-  {
-    "word": "Yarn",
-    "definition": "An alternative to NPM (Node.js Package Manager) developed by Facebook. It is generally considered to be faster and more secure than NPM, although they are mostly interchangeable."
-  },
-
-  {
-    "word": "TypeScript",
-    "definition": "TypeScript is an open-source programming language developed and maintained by Microsoft. TypeScript is a layer around JavaScript with static typing and more methods. TypeScript transcompiles into JavaScript."
+    "definition": "An adjective for websites that change to the size of the screen on which they're being viewed."
   },
   {
     "word": "REST API",
     "definition": "API that uses HTTP requests to GET, PUT, POST and DELETE data. REST API is based on representational state transfer (REST) technology, an architectual style and approach to communications, often used in web services development."
   },
   {
-    "word": "TDD",
-    "definition": "Test Driven Development (TDD) is a software development process that relies on the repetition of a very short development cycle: <ul class='browser-default'><li>Add a test (initialy failing)</li><li>Run all tests and see if the new one fails</li><li>Write some code</li><li>Run tests</li><li>Refactor code</li><li>Repeat</li></ul>"
+    "word": "SASS (Syntactically Awesome Style Sheets)",
+    "definition": "A style sheet language that can be transpiled into CSS. Filename extension is .scss"
   },
   {
-    "word": "Continuous Integration (CI)",
-    "definition": "CI is a development practice that requires developers to integrate code into a shared repository several times a day. Each check-in is then verified by an automated build, allowing teams to detect problems early."
+    "word": "Scala",
+    "definition": "Scala is a general-purpose programming language providing support for functional programming and a strong static type system."
   },
   {
-    "word": "Continuous Delivery (CD)",
-    "definition": "CD is a software engineering approach in which teams produce software in short cycles, ensuring that the software can be reliably released at any time and, when release software, doing so manually. The goal is to build, test and release software with greater speed and frequency."
+    "word": "SEO (Search Engine Optimization)",
+    "definition": "The method of gaining traffic (users) to your website through search engines like Google, Bing etc. by ranking on the first page for particular keywords."
   },
   {
-    "word": "AngularJS",
-    "definition": "Javascript based open source front end web application framework used for creating rich, extensible web applications."
+    "word": "Server",
+    "definition": "A server is a computer program or a device that provides functionality for other programs or devices, called 'clients'. This architecture is called the client–server model, where a single overall computation is distributed across multiple processes or devices."
   },
   {
-    "word": "Web Worker",
-    "definition": "JavaScript script executed from an HTML page that runs in the background, independently of user-interface scripts that may also have been executed from the same HTML page."
+    "word": "SDK (Software Development Kit)",
+    "definition": "A collection of libraries, tools or programs used by devlopers."
   },
   {
-    "word": "WebAssembly",
-    "definition": "WebAssembly (Wasm, WA) is a web standard that defines a binary format and a corresponding assembly-like text format for executable code in Web pages. It is meant to enable executing code nearly as fast as running native machine code."
+    "word": "Software",
+    "definition": "Software is a general term for the programs used in computers and related devices. Different from \"Hardware.\""
   },
   {
-    "word": "CORS",
-    "definition": "Cross-origin resource sharing (CORS) is a mechanism that allows web applications to access resources from different origin."
+    "word": "Source Code",
+    "definition": "The collection of files containing instructions in a programming language that make up a program. Source code is commonly compiled into a binary executable format. It may also be run by an interpreter if it is an interpreted language such as Python or Ruby."
+  },
+    {
+    "word": "SQL (Structured Query Language)",
+    "definition": "A standard computer language for relational database management and data manipulation."
+  },
+  {
+    "word": "SSL (Secure Sockets Layer)",
+    "definition": "The security protocol that allows for transmission of encrypted data between a web server and a user's browser."
+  },
+  {
+    "word": "Synchronous",
+    "definition": "(a program part) Executed in the same thread or process. Opposite of \"Asynchronous.\""
+  },
+  {
+    "word": "TDD (Test Driven Development)",
+    "definition": "A software development process that relies on the repetition of a very short development cycle: <ul class='browser-default'><li>Add a test (initialy failing)</li><li>Run all tests and see if the new one fails</li><li>Write some code</li><li>Run tests</li><li>Refactor code</li><li>Repeat</li></ul>"
+  },
+  {
+    "word": "Thread",
+    "definition": "A thread is a unit of execution; i. e., a program or part of a program that a computer can execute concurrently with others. A thread is a process, or part of it. (Alternative definition) A thread of discussion in an online forum."
+  },
+  {
+    "word": "TLD (Top Level Domain)",
+    "definition": "A domain at the highest level in the hierarchical Domain Name System of the Internet (e.g., .com, .net, .org)."
+  },
+  {
+    "word": "TLS (Transport Layer Security)",
+    "definition": "A cryptographic protocol designed to provide communications security over a computer network. It succeeds SSL."
+  },
+  {
+    "word": "Transaction",
+    "definition": "An atomic unit of work that should either be completed in its entirety or not done at all."
+  },
+  {
+    "word": "Transpile",
+    "definition": "The same as compiling, except that source code is translated into another form of source code, and not into binary/machine code."
+  },
+  {
+    "word": "TypeScript",
+    "definition": "An open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. TypeScript transpiles into JavaScript."
+  },
+  {
+    "word": "UAT (User Acceptance Testing)",
+    "definition": "Formal testing done often by the user, with respect to user needs, requirements, and business processes conducted to determine whether or not a system satisfies the acceptance criteria and to enable the user to determine whether or not to accept the system."
+  },
+  {
+    "word": "UNIX",
+    "definition": "UNIX is an operating system developed in the 1970s. Linux is a derivative."
   },
   {
     "word": "Variable",
-    "definition": "A variable is a value that can change, depending on conditions or on information passed through the program."
+    "definition": "A variable is a value that can change, depending on the logic of, conditions in, or information passed through the program."
   },
   {
-    "word": "CSV",
-    "definition": "Is a comma-separated values file, which allows data to be saved in a tabular format"
+    "word": "WAN (Wide Area Network)",
+    "definition": "Any network geographically wider than a LAN (Local Area Network). The Internet is a WAN."
   },
   {
-    "word": "Flutter",
-    "definition": "Flutter is an open-source mobile application development SDK created by Google. It is used to develop applications for Android and iOS."
+    "word": "WebAssembly (Wasm, WA)",
+    "definition": "WebAssembly is a Web standard that defines a binary format and a corresponding assembly-like text format for executable code in Web pages. It is meant to enable executing code nearly as fast as running native machine code."
   },
   {
-    "word": "Callback",
-    "definition": "A callback function is any function that is passed as an argument to other code that is expected to call back the argument at a given time. If this is immediate then it called synchronous callback, if it is delayed it is called asynchronous callback."
+    "word": "Web Browser",
+    "definition": "A software program that allows you to surf the web. Popular web browsers include Google Chrome, Mozilla Firefox, and Microsoft Edge and Internet Explorer."
   },
   {
-    "word": "CMS",
-    "definition": "A content management system (CMS) is a software application or set of related programs that are used to create and manage digital content. It typically supports multiple users in a collaborative environment."
+    "word": "Web Worker",
+    "definition": "A JavaScript script executed from an HTML page that runs in the background, independently of user-interface scripts that may also have been executed from the same HTML page."
+  },
+  {
+    "word": "WWW (World Wide Web)",
+    "definition": "An information space where documents and other web resources are identified by URLs, interlinked by hypertext links and accessible via the Internet."
+  },
+  {
+    "word": "Yarn",
+    "definition": "An alternative to NPM (Node.js Package Manager) developed by Facebook. It is generally considered to be faster and more secure than NPM, although they are mostly interchangeable."
   }
 ]
